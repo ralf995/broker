@@ -1,0 +1,8 @@
+tags
+*.d
+*.o
+*.elf
+*.img
+*.lst
+*.map
+
