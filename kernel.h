@@ -20,7 +20,6 @@
 #ifndef _kernel_h
 #define _kernel_h
 
-#include <circle/gpiopin.h>
 #include <circle/actled.h>
 #include <circle/koptions.h>
 #include <circle/devicenameservice.h>
@@ -66,7 +65,6 @@ private:
   CLogger             m_Logger;
   CUSBHCIDevice       m_USBHCI;
   CScheduler          m_Scheduler;
-  CGPIOPin            m_OutputPin;
   CNetSubSystem       m_Net;
 };
 
